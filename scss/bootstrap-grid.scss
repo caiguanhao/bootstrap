@@ -23,10 +23,18 @@ html {
 @import "functions";
 @import "variables";
 
+@import "mixins/background-variant";
 @import "mixins/breakpoints";
+@import "mixins/clearfix";
+@import "mixins/float";
+@import "mixins/hover";
 @import "mixins/grid-framework";
 @import "mixins/grid";
+@import "mixins/screen-reader";
+@import "mixins/text-emphasis";
+@import "mixins/text-hide";
+@import "mixins/text-truncate";
+@import "mixins/visibility";
 
 @import "grid";
-@import "utilities/display";
-@import "utilities/flex";
+@import "utilities";
